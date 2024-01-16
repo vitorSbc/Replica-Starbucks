@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+#cabecalho{
+    height: 12%;
+}
+
+#conteudoGeral{
+    margin: 15px auto;
+    height: 90%;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 5px;
+}
+
+.menu{
+    float: right;
+    height: auto;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.menu a{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+}
+
+.circulo{
+    position: absolute;
+    left: 60%;
+    top: 250px;
+    border: 700px solid #036635;
+    border-radius: 50%;
+    overflow-y: hidden;
+    z-index: -1;
+}
+
+.texto{
+    margin:150px 0px 0px 8% ;
+    display: inline-block;
+    font-family: "League Spartan", sans-serif;
+}
+
+.texto h1{
+    letter-spacing: 3px;
+    font-size: 65px;
+    color: #14442d;
+    font-family: "Julius Sans", sans-serif;
+}
+
+.texto h1 span{
+    font-size: 75px;
+    color: #036635;
+}
+
+.texto p{
+    padding: 5px;
+    max-width: 700px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #474747;
+    
+}
+
+.texto a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #c0f1d9;
+    border: 5px solid #036635 ;
+    background-color: #036635;
+    border-radius: 20px;
+   
+}
+
+.iconesPequenos{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    width: 15%;
+    height: 8%;
+    
+}
+
+.iconesPequenos img{
+    width: 20%;
+    margin-left:30px;
+    float: left;
+}
+
+.iconeGrande{
+    position: absolute;
+    right: 250px;
+    top: 200px;
+}
+
+
+
+.iconesRedes{
+    text-align: center;
+    float: right;
+    margin-top: 12%;
+}
+
+.iconesRedes img{
+    padding: 15px;
+}
