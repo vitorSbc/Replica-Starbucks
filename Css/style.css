@@ -90,7 +90,7 @@ body, html {
 
 .iconesPequenos{
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
     left: 40%;
     width: 15%;
     height: 8%;
@@ -101,15 +101,27 @@ body, html {
     width: 20%;
     margin-left:30px;
     float: left;
+    transition: width 1s;
+}
+
+.iconesPequenos img:hover{
+   bottom: 60px;
+   width: 25%;
+
 }
 
 .iconeGrande{
     position: absolute;
     right: 250px;
     top: 200px;
+    transition: right 1s;
 }
 
+.iconeGrande:hover{
+    right: 350px;
+    bottom: 450px;
 
+}
 
 .iconesRedes{
     text-align: center;
@@ -118,5 +130,12 @@ body, html {
 }
 
 .iconesRedes img{
-    padding: 15px;
+    padding: 25px;
+    transition: margin 1s, transform 2s;
+}
+
+.iconesRedes img:hover{
+    margin-right: 20px;
+    transform: rotate(360deg);
+
 }
